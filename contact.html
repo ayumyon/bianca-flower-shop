@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | BIANCA Flower Works</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="js/script.js"></script>
+    <script src="./js/toggle-menu.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <a class="header-logo" href="./index.html">
+                <h1><img src="./images/common/header-logo.png" alt="BIANCA"></h1>
+            </a>
+            <button class="toggle-menu-button">
+                <span></span>
+            </button>
+            <div class="header-site-menu">
+                <nav class="site-menu">
+                    <ul>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./lineup.html">Line up</a></li>
+                        <li><a href="./access.html">Access</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="contact-title">
+            <h2><span style="font-size: 140%;">C</span>ONTACT</h2>
+        </div>
+        <div class="contact-text">
+            <div class="box5">
+                <p>BIANCA Flower Worksがお役にたてることがありましたら<br>
+                    お気軽にお問合せください。イベントや制作に入っている場合<br>
+                    ご返信に少しお時間を頂戴する場合がございます。お急ぎの場合は<br>
+                    お電話でご連絡いただければ幸いです。</p>
+                <p>TEL 078-123-4567</p>
+            </div>
+        </div>
+        <form action="#">
+            <dl class="form-area">
+                <dt><span class="required">お名前</span></dt>
+                <dd><input class="input-text" type="text" name="name" required></dd>
+                <dt><span class="required">電話番号</span></dt>
+                <dd><input class="input-text" type="tel" name="tel" required></dd>
+                <dt><span class="required">メールアドレス</span></dt>
+                <dd><input class="input-text" type="email" name="email" required></dd>
+                <dt>お問い合わせ種別</dt>
+                <dd>
+                    <label class="radio-button"><input type="radio" name="genre" value="商品について" checked>商品について</label>
+                    <label class="radio-button"><input type="radio" name="genre" value="ウェディングについて">ウェディングについて</label>
+                    <label class="radio-button"><input type="radio" name="genre"
+                            value="店舗やイベントの装花について">店舗やイベントの装花について</label>
+                    <label class="radio-button"><input type="radio" name="genre" value="その他">その他</label>
+                </dd>
+                <dt><span class="required">お問い合わせ内容</span></dt>
+                <dd><textarea class="message" name="message" required></textarea></dd>
+                <button class="submit-button" type="submit">Submit</button>
+            </dl>
+
+        </form>
+    </main>
+
+    <footer class="footer">
+        <a class="footer-logo" href="./index.html">
+            <img src="./images/common/footerlogo.png" alt="BIANCA">
+        </a>
+        <p class="footer-time">OPEN <br>Tue-Sun<br>
+            12:00-19:00</p>
+        <nav class="site-menu-footer">
+            <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./lineup.html">Line up</a></li>
+                <li><a href="./access.html">Access</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icon">
+            <a href="#top">
+                <img src="./images/common/instagram-icon.png" alt="Instagram">
+                <img src="./images/common/twitter-icon.png" alt="Twitter">
+                <img src="./images/common/facebook-icon.png" alt="Facebook">
+            </a>
+        <p class="copyright"><small>Copyright&copy;BIANCA Inc,All Rights Reserved.</small></p>
+    </footer>
+    <div class="page-top-wrap">
+        <a href="#" id="page-top">TOP</a>
+    </div>
+</body>
+
+</html>
